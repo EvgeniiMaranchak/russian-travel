@@ -1,11 +1,16 @@
 .place__website {
-  grid-area: url;
+  grid-template: place__website;
   align-self: end;
-  justify-self: start;
 }
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 719px) {
   .place__website {
-    max-width: 288px;
-    margin: 0 16px 0 16px;
+    margin-top: 32px;
+    align-self: center;
+  }
+}
+@media screen and (max-width: 350px) {
+  .place__website {
+    align-self: normal;
+    margin-left: 16px;
   }
 }

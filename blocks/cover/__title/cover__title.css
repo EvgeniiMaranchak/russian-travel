@@ -1,31 +1,36 @@
 .cover__title {
-  margin: 0 auto 32px auto;
-  padding: 0;
+  margin: 0 auto;
   text-align: center;
+  color: #FFFFFF;
+  padding-top: 245px;
   font-style: normal;
   font-weight: 900;
   font-size: 72px;
-  z-index: 1;
-  max-width: 560px;
   line-height: 76px;
+  width: 560px;
 }
-
-@media (max-width: 650px) {
+@media screen and (max-width: 1152px) {
   .cover__title {
-    font-size: 58px;   
+    padding-top: 195px;
   }
 }
-
-@media (max-width: 576px) {
+@media screen and (max-width: 896px) {
   .cover__title {
-    font-size: 58px;   
-   max-width: 288;
+    padding-top: 115px;
   }
 }
-
-@media (max-width: 320px) {
+@media screen and (max-width: 767px) {
   .cover__title {
-    font-size: 32px;
-    line-height: 35px;    
+    width: 70%;
+    font-size: calc((100vw / 11.2) + 3.4px);		
+    line-height: calc((100vw / 10.9) + 5.7px);		
+  }
+}
+@media screen and (max-width: 544px) {
+  .cover__title {
+    padding-top: 33px;
+    width: 255px; /*? поставил меньше 288px, а то собаки не убегают на вторую строчку :)*/
+    font-size: 32px;		
+    line-height: 35px;		
   }
 }

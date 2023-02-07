@@ -1,56 +1,45 @@
 .place {
+  padding-top: 80px;
   display: grid;
-  grid-template-columns: 460px 1fr;
-  grid-template-areas:
-    "title url"
-    "img paragraph";
+  grid-template-areas: 
+  "place__title place__website"
+  "place__image place__paragraphs";
   column-gap: 40px;
   row-gap: 48px;
-  margin-bottom: 81px;
+  grid-template-columns: minmax(min-content, 460px) minmax(min-content, max-content);
+  margin: 0 auto;
+  max-width: 984px;
 }
-.place:last-child{
-  margin-bottom: 0;
+.place:first-of-type {
+  padding-top: 0;
 }
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1079px) {
   .place {
-    grid-template-columns: 440px 1fr;
+    grid-template-columns: minmax(min-content, 440px) minmax(min-content, max-content);
     column-gap: 32px;
-    row-gap: 48px;
-    margin-bottom: 80px;
   }
 }
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 1023px) {
   .place {
-    grid-template-columns: 340px 1fr;
+    padding-top: 73px;
+  }
+}
+@media screen and (max-width: 928px) {
+  .place {
+    grid-template-columns: minmax(min-content, 330px) minmax(min-content, max-content);
+    /*?340px для place__title не переносит второе слово на след.строчку*/
     column-gap: 28px;
-    row-gap: 48px;
-    margin-bottom: 73px;
   }
 }
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 719px) {
   .place {
-    grid-template-columns: 516px;
-    grid-template-areas:
-      "title"
-      "url"
-      "img"
-      "paragraph";
+    padding-top: 50px;
   }
 }
-@media screen and (max-width: 560px) {
+@media screen and (max-width: 719px) {
   .place {
-    grid-template-columns: 100%;
-  }
-}
-@media screen and (max-width: 320px) {
-  .place {
-    grid-template-columns: 320px;
-    grid-template-areas:
-      "title"
-      "url"
-      "img"
-      "paragraph";
-    row-gap: 32px;
-    margin-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 0;
   }
 }
