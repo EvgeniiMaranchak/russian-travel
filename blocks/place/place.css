@@ -27,7 +27,6 @@
 @media screen and (max-width: 928px) {
   .place {
     grid-template-columns: minmax(min-content, 330px) minmax(min-content, max-content);
-    /*?340px для place__title не переносит второе слово на след.строчку*/
     column-gap: 28px;
   }
 }

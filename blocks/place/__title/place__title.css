@@ -4,8 +4,7 @@
   font-style: normal;
   font-weight: 900;
   font-size: 72px;
-  line-height: 76px;
-  color: #FFFFFF;
+  line-height: 76px;  
 }
 @media screen and (max-width: 928px) {
   .place__title {
