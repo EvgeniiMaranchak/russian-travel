@@ -4,7 +4,7 @@
   font-style: normal;
   font-weight: 400;
   font-size: 30px;
-  line-height: 36px;		
+  line-height: 36px;
   text-align: center;
   color: #FFFFFF;
   padding-top: 32px;
@@ -12,7 +12,7 @@
 @media screen and (max-width: 767px) {
   .lead__subtitle {
     font-size: calc((100vw / 32) + 6px);
-    line-height: calc((100vw / 28) + 8.5px);		
+    line-height: calc((100vw / 28) + 8.5px);	
     padding-top: 16px;
   }
 }
