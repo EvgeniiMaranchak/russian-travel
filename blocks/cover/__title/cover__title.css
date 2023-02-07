@@ -9,16 +9,19 @@
   line-height: 76px;
   width: 560px;
 }
+
 @media screen and (max-width: 1152px) {
   .cover__title {
     padding-top: 195px;
   }
 }
+
 @media screen and (max-width: 896px) {
   .cover__title {
     padding-top: 115px;
   }
 }
+
 @media screen and (max-width: 767px) {
   .cover__title {
     width: 70%;
@@ -26,6 +29,7 @@
     line-height: calc((100vw / 10.9) + 5.7px);
   }
 }
+
 @media screen and (max-width: 544px) {
   .cover__title {
     padding-top: 33px;
