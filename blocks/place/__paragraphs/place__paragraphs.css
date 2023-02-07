@@ -1,5 +1,5 @@
 .place__paragraphs {
-  grid-template: place__text;
+  grid-template: place__paragraphs;
   margin: 0 auto;
 }
 @media screen and (max-width: 719px) {

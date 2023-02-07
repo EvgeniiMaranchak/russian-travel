@@ -23,13 +23,13 @@
   .cover__title {
     width: 70%;
     font-size: calc((100vw / 11.2) + 3.4px);		
-    line-height: calc((100vw / 10.9) + 5.7px);		
+    line-height: calc((100vw / 10.9) + 5.7px);
   }
 }
 @media screen and (max-width: 544px) {
   .cover__title {
     padding-top: 33px;
-    width: 255px; /*? поставил меньше 288px, а то собаки не убегают на вторую строчку :)*/
+    width: 255px;
     font-size: 32px;		
     line-height: 35px;		
   }
