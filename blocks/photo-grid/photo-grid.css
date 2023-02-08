@@ -6,6 +6,16 @@
   padding-top: 92px;
   grid-template-columns: repeat(auto-fill, minmax(267px, 1fr));
 }
+
+@media screen and (max-width: 1280px) {
+  .photo-grid {
+    padding-left: 48px;
+    padding-right: 48px;
+  }
+}
+
+
+
 @media screen and (max-width: 1024px) {
   .photo-grid {
     padding-left: 48px;
