@@ -1,16 +1,17 @@
 .place__website {
-  grid-template: place__website;
-  align-self: end;
+  align-self: flex-end;
 }
-@media screen and (max-width: 719px) {
+
+@media screen and (max-width: 470px) {
   .place__website {
-    margin-top: 32px;
-    align-self: center;
+    margin: 0 auto 32px;
+    width: calc(100% - 32px);    
   }
 }
-@media screen and (max-width: 350px) {
+@media screen and (max-width: 320px) {
   .place__website {
-    align-self: normal;
-    margin-left: 16px;
+    margin: 0 16px;
+    width: calc(100% - 32px);
+    line-height: 35px;
   }
 }

@@ -2,7 +2,12 @@
   display: flex;
   align-self: center;
   list-style-type: none;
-  margin: 0;
+  margin: 18px 0 6px;
   padding: 0;
   gap: 18px;
+}
+@media screen and (max-width: 470px) {
+.header__lang-links {
+  margin: 14px 0 8px;
+}
 }

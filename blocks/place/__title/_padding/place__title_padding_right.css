@@ -1,0 +1,11 @@
+@media screen and (max-width: 768px) {
+  .place__title_padding_right {
+    padding-right: 22px;
+  }
+}
+
+@media screen and (max-width: 736px) {
+  .place__title_padding_right {
+    padding-right: 0px;
+  }
+}

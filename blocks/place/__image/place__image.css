@@ -1,12 +1,34 @@
 .place__image {
-  grid-template: place__image;
-  width: 100%;
+  max-width: 460px;
 }
-@media screen and (max-width: 719px) {
-  .place__image {
-    margin-top: 32px;
-    margin-bottom: 32px;
-    max-width: 460px;
-    align-self: center;
+
+@media screen and (max-width: 1024px) {
+  .place__image {   
+    max-width: 440px;    
   }
 }
+
+@media screen and (max-width: 880px){
+  .place__image {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 768px){
+  .place__image {
+    width: 340px;
+  }
+}
+
+@media screen and (max-width: 470px){
+  .place__image {
+    width: 100%;
+    margin-bottom: 32px;
+  }
+}
+@media screen and (max-width: 320px){
+  .place__image {
+    margin-top: 16px;
+  }
+}
+
+

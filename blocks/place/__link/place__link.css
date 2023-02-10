@@ -1,13 +1,10 @@
-.place__link {
-  margin: 0;
+.place__link {  
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
   color: #ffffff;
-  text-decoration-line: underline;
+  transition-timing-function: linear;
   line-height: 22px;
-  transition: opacity .5s;
-}
-.place__link:hover {
-  opacity: .3;
+  transition-duration: 0.3s;
+  transition-delay: 0.1s;
 }
