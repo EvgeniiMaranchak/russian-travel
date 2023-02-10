@@ -36,3 +36,8 @@
     padding-right: 16px;
   }
 }
+@media screen and (max-width: 767px) {
+  .photo-grid {
+    gap: 12px;
+  }
+}
