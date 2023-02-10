@@ -11,4 +11,4 @@
 
 
 ## Ссылка GitHub Pages
-https://github.com/EvgeniiMaranchak/russian-travel
+https://evgeniimaranchak.github.io/russian-travel/

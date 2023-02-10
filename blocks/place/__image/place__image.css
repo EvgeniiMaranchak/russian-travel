@@ -1,4 +1,4 @@
-.place__image {
+/*.place__image {
   max-width: 460px;
 }
 
@@ -30,5 +30,32 @@
     margin-top: 16px;
   }
 }
+*/
 
+.place__image {
+  max-width: 460px;
+}
 
+@media screen and (max-width: 1024px){
+  .place__image {
+    width: 42.96875vw;
+  }
+}
+
+@media screen and (max-width: 880px){
+  .place__image {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 768px){
+  .place__image {
+    width: 44.27083333333333vw;
+  }
+}
+
+@media screen and (max-width: 460px){
+  .place__image {
+    width: 100vw;
+    margin-bottom: 32px;
+  }
+}
