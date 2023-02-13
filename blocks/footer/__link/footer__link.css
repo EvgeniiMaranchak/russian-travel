@@ -2,11 +2,10 @@
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
-  line-height: 18px;
-  text-decoration: none;
+  line-height: 18px;  
   margin: 0;
   margin-right: 18px;
-  color: #ffffff;
+ 
 }
 @media screen and (max-width: 767px) {
   .footer__link {
@@ -17,7 +16,11 @@
 }
 .footer__link:hover {
   opacity: .3;
-  transition: opacity .5s;
+  transition: opacity .8s;
+  -webkit-transition: opacity .8s;
+  -moz-transition: opacity .8s;
+  -ms-transition: opacity .8s;
+  -o-transition: opacity .8s;
 }
 .footer__link:last-of-type {
   margin: 0;
