@@ -12,7 +12,7 @@
   margin: 0;
 }
 .place__link:hover {
-  opacity: .3;
+  opacity: .8;
   transition: opacity .8s;
 }
 @media screen and (max-width: 470px){
