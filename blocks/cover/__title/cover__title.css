@@ -10,13 +10,13 @@
   color: #FFFFFF;
   display: flex;
 }
-@media screen and (max-width: 590px) {
+@media screen and (max-width: 720px) {
   .cover__title {
     font-size: 60px;
     line-height: 60px;
   }
 }
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 590px) {
   .cover__title {
     font-size: 50px;
     line-height: 50px;
