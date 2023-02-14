@@ -15,7 +15,7 @@
   }
 }
 .footer__link:hover {
-  opacity: .3;
+  opacity: .8;
   transition: opacity .8s;
   -webkit-transition: opacity .8s;
   -moz-transition: opacity .8s;
